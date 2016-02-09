@@ -27,7 +27,7 @@
 					<arg value="@{pName}" />
 					<!--Message flows for its corresponding projects which has given in cvsCheckout.properties-->
 					<arg value="-o" />
-					<arg line="@{workspaces.dir}\@{pname}\${@{pName}.flow_name}" />
+					<arg line="${workspaces.dir}\@{pname}\${@{pName}.flow_name}" />
 					<arg value="-deployAsSource" />
 				</exec>	
 				</sequential>
