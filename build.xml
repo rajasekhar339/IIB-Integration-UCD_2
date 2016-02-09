@@ -21,7 +21,7 @@
 					<arg value="${workspaces.dir}" />
 					<!--barfile generated path-->
 					<arg value="-b" />
-					<arg value="${bar.loc}\@{pName}.msgflow.generated.bar" />
+					<arg value="${bar.loc}\@{pname}\@{pName}.msgflow.generated.bar" />
 					<!--project Name-->
 					<arg value="-p" />
 					<arg value="@{pName}" />
